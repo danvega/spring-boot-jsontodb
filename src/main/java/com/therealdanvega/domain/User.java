@@ -1,13 +1,14 @@
 package com.therealdanvega.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 import javax.persistence.*;
 
-@Data
-@AllArgsConstructor
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
 @Entity
 public class User {
 
@@ -24,6 +25,5 @@ public class User {
     private Address address;
     @Embedded
     private Company company;
-
-    public User() {}
+    
 }
