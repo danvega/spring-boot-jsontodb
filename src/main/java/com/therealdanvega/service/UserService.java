@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class UserService {
 
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
@@ -24,6 +24,6 @@ public class UserService {
     }
 
     public void save(List<User> users) {
-        userRepository.save(users);
+        userRepository.saveAll(users);
     }
 }
