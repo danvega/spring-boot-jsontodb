@@ -5,6 +5,7 @@ and use that data to populate an H2 database. If you're interested in reading th
 tutorial those links are below.
 
 Blog: https://www.danvega.dev/blog/2017/07/05/read-json-data-spring-boot-write-database/
+
 YouTube: https://youtu.be/rGdKmF2UzSc
 
 ## Update
