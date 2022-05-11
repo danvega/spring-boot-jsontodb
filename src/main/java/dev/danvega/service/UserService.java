@@ -1,7 +1,7 @@
-package com.therealdanvega.service;
+package dev.danvega.service;
 
-import com.therealdanvega.domain.User;
-import com.therealdanvega.repository.UserRepository;
+import dev.danvega.domain.User;
+import dev.danvega.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class UserService {
 
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
@@ -24,6 +24,6 @@ public class UserService {
     }
 
     public void save(List<User> users) {
-        userRepository.save(users);
+        userRepository.saveAll(users);
     }
 }

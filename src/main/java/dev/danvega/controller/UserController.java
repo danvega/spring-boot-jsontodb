@@ -1,7 +1,7 @@
-package com.therealdanvega.controller;
+package dev.danvega.controller;
 
-import com.therealdanvega.domain.User;
-import com.therealdanvega.service.UserService;
+import dev.danvega.domain.User;
+import dev.danvega.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.therealdanvega.domain;
+package dev.danvega.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

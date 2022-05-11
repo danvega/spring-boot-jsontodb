@@ -1,6 +1,5 @@
-package com.therealdanvega.domain;
+package dev.danvega.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

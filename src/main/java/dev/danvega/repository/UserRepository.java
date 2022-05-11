@@ -1,10 +1,8 @@
-package com.therealdanvega.repository;
+package dev.danvega.repository;
 
-import com.therealdanvega.domain.User;
+import dev.danvega.domain.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Long> {
-
-
 
 }

@@ -1,9 +1,9 @@
-package com.therealdanvega;
+package dev.danvega;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.therealdanvega.domain.User;
-import com.therealdanvega.service.UserService;
+import dev.danvega.domain.User;
+import dev.danvega.service.UserService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
